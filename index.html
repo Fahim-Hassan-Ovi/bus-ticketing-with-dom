@@ -43,6 +43,13 @@
 </head>
 
 <body>
+  <header>
+    <div class="bg-white px-8 py-5 w-11/12 mx-auto rounded-2xl shadow-sm flex justify-center items-center gap-5">
+      <i class="fa-solid fa-couch"></i>
+      <span id="available-seat">40</span>
+      <span>Seats</span>
+    </div>
+  </header>
   <main class="bg-slate-100">
     <section class="bg-white px-8 py-5 w-11/12 mx-auto rounded-2xl shadow-sm grid grid-cols-3 gap-5">
       <div class="col-span-2">
@@ -213,7 +220,7 @@
             <h3 class="flex justify-between">
               <p class="flex">
                 <span>Seat</span>
-                <span
+                <span id="total-booked"
                   class="bg-primary text-white w-4 h-4 flex justify-center items-center font-normal rounded-full text-sm">0</span>
               </p>
               <p>Class</p>
@@ -228,7 +235,7 @@
               <p>Total Price</p>
               <p>
                 <span>BDT</span>
-                <span>****</span>
+                <span id="total-price">****</span>
               </p>
             </div>
             <div class="border-b-2 border-dashed my-4"></div>
